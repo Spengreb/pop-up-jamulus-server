@@ -16,7 +16,7 @@ IOSchedulingPriority=0
 
 #### Change this to publish this server, set genre, location and other parameters.
 #### See https://jamulus.io/wiki/Command-Line-Options ####
-ExecStart=/bin/sh -c 'exec /usr/bin/jamulus-headless -s -n -o "Verethan1;Falkenstein;224"'
+ExecStart=/bin/sh -c 'exec /usr/bin/jamulus-headless -s -n -o "PopupJam;Falkenstein;224"'
 
 
 Restart=on-failure
