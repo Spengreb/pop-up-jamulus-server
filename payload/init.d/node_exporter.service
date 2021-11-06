@@ -1,0 +1,11 @@
+[Unit]
+Description=node_exporter service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/node_exporter --collector.systemd
+
+[Install]
+WantedBy=multi-user.target
